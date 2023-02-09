@@ -3,7 +3,6 @@ import { SITE } from '~/config.mjs';
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
@@ -24,28 +23,29 @@ const meta = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Get template', href: 'https://github.com/onwidget/astrowind', icon: 'tabler:download' }}
-    callToAction2={{ text: 'Learn more', href: '#features' }}
-    image={{ src: import('~/assets/images/hero.png'), alt: 'AstroWind Hero Image' }}
+    callToAction={{ text: 'Book Now', href: '#'}}
+    callToAction2={{ text: 'About Me', href: '#features' }}
+    image={{ src: import('~/assets/images/LoveIreland2.jpg'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Free template for <span class="hidden lg:inline">create your website <br class="2xl:hidden"/> with</span>
-      <span class="text-accent dark:text-white highlight"> Astro 2.0</span> + Tailwind CSS
+      Take A Trip With <span class="hidden lg:inline">Irelands Favourite Tours. <br class="2xl:hidden"/></span>
+      <span class="text-accent dark:text-white highlight"> Tuckers Tours Belfast!</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 2.0 +
-        Tailwind CSS.</span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span> Suitable for Startups,
-      Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs.
+        <span class="font-semibold">
+          Tuckers Tours Belfast
+        </span> 
+        Discover the beauty of Belfast with our expert-led tours. Experience the city's rich history and culture like never before.
+      </span>
+
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">Tuckers Tours Belfast</span> 
+      Suitable for Families, Friends, Individuals and More!
     </Fragment>
   </Hero>
 
   <!-- Note Widget ******************* -->
-
-  <Note />
 
   <!-- Features Widget *************** -->
 
