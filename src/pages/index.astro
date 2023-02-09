@@ -4,12 +4,11 @@ import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import LatestPosts from '~/components/blog/LatestPosts.astro';
+// import LatestPosts from '~/components/blog/LatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
+// import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const meta = {
@@ -17,6 +16,8 @@ const meta = {
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
+
+const a = "Belfast Peace Walls Tours";
 ---
 
 <Layout {meta}>
@@ -50,48 +51,48 @@ const meta = {
   <!-- Features Widget *************** -->
 
   <Features
-    highlight="Features"
-    title="What you get with AstroWind"
-    subtitle="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque rem aperiam, eaque ipsa quae."
+    highlight="Highlights"
+    title="What you get with our tours"
+    subtitle="Discover Belfast like never before with our comprehensive tour experience."
     items={[
       [
         {
-          title: 'Astro + Tailwind CSS Integration',
+          title: 'Expert Guide',
           description:
-            'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-          icon: 'tabler:brand-tailwind',
+            "Knowledgeable and passionate guide with a deep understanding of Belfast's history, culture, and attractions",
+          icon: 'grommet-icons:user-expert',
         },
         {
-          title: 'Ready-to-use Components',
+          title: 'Small Group Experience',
           description:
-            'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-          icon: 'tabler:components',
+            'Personalized attention and a more intimate tour experience with a group size of no more than 20 people',
+          icon: 'healthicons:i-groups-perspective-crowd-outline',
         },
         {
-          title: 'Best Practices',
+          title: 'Customized Itinerary',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+            'A tour tailored to your interests and preferences, with the option to adjust the itinerary on the day of the tour',
           icon: 'tabler:list-check',
         },
       ],
       [
         {
-          title: 'Excellent Page Speed',
+          title: 'Unique Perspectives',
           description:
-            'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-          icon: 'tabler:rocket',
+            "Discover hidden gems and off-the-beaten-path locations that you wouldn't find on a typical tourist itinerary",
+          icon: 'icon-park-outline:guide-board',
         },
         {
-          title: 'Search Engine Optimization (SEO)',
+          title: 'Convenient Transportation',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-          icon: 'tabler:arrows-right-left',
+            'Comfortable, air-conditioned transportation, allowing you to sit back, relax, and enjoy the sights of the north of Ireland',
+          icon: 'icon-park-outline:tour-bus',
         },
         {
-          title: 'Open to new ideas and contributions',
+          title: 'Guaranteed Fun',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
-          icon: 'tabler:bulb',
+            'A fun and engaging tour experience, guaranteed to leave you with lasting memories and a newfound appreciation for Belfast.',
+          icon: 'healthicons:happy',
         },
       ],
     ]}
@@ -100,34 +101,33 @@ const meta = {
   <!-- Content Widget **************** -->
 
   <Content
-    highlight="Inside template"
-    title="And what's inside? ..."
+    highlight="Our Tours"
+    title="What do we offer? ..."
     items={[
       {
-        title: 'Per ei quaeque sensibus',
+        title: 'Explore Westeros in Real Life',
         description:
-          'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+          "Visit iconic filming locations and discover the magic behind the scenes of the hit TV series",
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: "Learn From a Thrones Expert",
         description:
-          'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+          "Enjoy a tour led by a knowledgeable guide who is passionate about all things Game of Thrones",
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
+        title: 'A Tour for Fans of All Ages',
         description:
-          'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+          "Whether you're a die-hard fan or just curious about the show, our Game of Thrones Tours are perfect for everyone.",
       },
     ]}
     image={{
-      src: import('~/assets/images/caos.jpg'),
+      src: import('~/assets/images/FilimingLocation.jpg'),
       alt: 'Colorful Image',
     }}
   >
     <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Ad vix debet docendi</h3>
-      Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod
-      tacimates.
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Game of Thrones</h3>
+      Join us on an unforgettable journey through the stunning landscapes of Northern Ireland, where you'll get to visit the iconic filming locations of the hit TV series 'Game of Thrones' and experience the magic of Westeros for yourself.
     </Fragment>
   </Content>
 
@@ -138,51 +138,53 @@ const meta = {
     isAfterContent
     items={[
       {
-        title: 'Per ei quaeque sensibus',
+        title: 'Understanding the Conflict',
+        description:
+          "Gain insight into the complex history and events that led to the creation of the peace walls in Belfast",
       },
       {
-        title: 'Cu imperdiet posidonium sed',
+        title: 'Walking in Their Shoes',
+        description:
+          "Walk the same streets and visit the same neighborhoods as those affected by the conflict, and understand the impact of the walls on daily life",
       },
       {
-        title: 'Nulla omittam sadipscing mel ne',
-      },
-      {
-        title: 'Per ei quaeque sensibus',
-      },
-      {
-        title: 'Cu imperdiet posidonium sed',
-      },
-      {
-        title: 'Nulla omittam sadipscing mel ne',
-      },
+        title: 'Leaving with a New Perspective',
+        description:
+          "Take away a deeper understanding of the conflict in Belfast and the importance of working towards a more united and peaceful future",
+      }
     ]}
     image={{
-      src: import('~/assets/images/vintage.jpg'),
+      src: import('~/assets/images/PeaceWalls.jpg'),
       alt: 'Vintage Image',
     }}
-  />
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Belfast Peace Walls Tours</h3>
+      Discover the History and Significance of Belfast's Divisions and Unite Through Understanding
+    </Fragment>
+  </Content>
 
   <!-- Steps Widget ****************** -->
 
   <Steps
-    title="Get your dream website up and running in no time with AstroWind."
+    title="Discover Northern Ireland with Ease"
     items={[
       {
-        title: 'Step 1: <span class="font-medium">Download</span>',
+        title: 'Step 1: <span class="font-medium">Choose Your Tour</span>',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula.',
+          "Select from a variety of tour options, each offering a unique perspective on Northern Ireland's history, culture, and landscapes",
         icon: 'tabler:package',
       },
       {
-        title: 'Step 2: <span class="font-medium">Add content</em>',
+        title: 'Step 2: <span class="font-medium">Book Your Experience</em>',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla.',
+          "Book your tour with ease and take the first step towards discovering the beauty of Northern Ireland",
         icon: 'tabler:letter-case',
       },
       {
-        title: 'Step 3: <span class="font-medium">Customize styles</span>',
+        title: 'Step 3: <span class="font-medium">Create Memories to Last a Lifetime</span>',
         description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mirisus tempus nulla, sed porttitor est nibh at nulla. Praesent placerat enim ut ex tincidunt vehicula. Fusce sit amet dui tellus.',
+          "Make memories that will last a lifetime as you immerse yourself in the breathtaking scenery and rich cultural heritage of Northern Ireland",
         icon: 'tabler:paint',
       },
       {
@@ -191,78 +193,18 @@ const meta = {
       },
     ]}
     image={{
-      src: import('~/assets/images/creativity.jpg'),
+      src: import('~/assets/images/BookNow.jpg'),
       alt: 'Steps image',
     }}
   />
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
-    title="Most used widgets"
-    subtitle="Provides frequently used components for building websites using Tailwind CSS"
-    highlight="Components"
-    items={[
-      {
-        title: 'Headers',
-        description:
-          'In general, Headers contain information that makes it easier for visitors to interact with the website.',
-        icon: 'flat-color-icons:template',
-      },
-      {
-        title: 'Heros',
-        description:
-          'If you want your website to get more than its fair share of visitors, the Hero section needs to be stellar.',
-        icon: 'flat-color-icons:gallery',
-      },
-      {
-        title: 'Features',
-        description:
-          'Display your product in action and how the Features actually create a solution for your target customer.',
-        icon: 'flat-color-icons:todo-list',
-      },
-      {
-        title: 'Content',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:document',
-      },
-      {
-        title: 'Call-to-Action',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:advertising',
-      },
-      {
-        title: 'Pricing',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:currency-exchange',
-      },
-      {
-        title: 'Testimonial',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:voice-presentation',
-      },
-      {
-        title: 'Contact',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'flat-color-icons:business-contact',
-      },
-      {
-        title: 'Footers',
-        description:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
-        icon: 'icon-park:page-template',
-      },
-    ]}
-  />
+ 
 
   <!-- HighlightedPosts Widget ******* -->
 
-  <LatestPosts
+  <!-- <LatestPosts
     title="Find out more content in our Blog"
     information={`The blog is used to display AstroWind documentation.
 			Each new article will be an important step that you will need to know to be an expert in creating a website using Astro + Tailwind CSS.
@@ -274,7 +216,7 @@ const meta = {
       'useful-resources-to-create-websites.md',
       'astrowind-template-in-depth.md',
     ]}
-  />
+  /> -->
 
   <!-- FAQs Widget ******************* -->
 
@@ -322,30 +264,30 @@ const meta = {
 
   <!-- Stats Widget ****************** -->
 
-  <Stats
+  <!-- <Stats
     items={[
       { name: 'Downloads', value: '132K' },
       { name: 'Stars', value: '24.8K' },
       { name: 'Forks', value: '10.3K' },
       { name: 'Users', value: '48.4K' },
     ]}
-  />
+  /> -->
 
   <!-- CallToAction Widget *********** -->
 
   <CallToAction
     callToAction={{
-      text: 'Get template',
-      href: 'https://github.com/onwidget/astrowind',
-      icon: 'tabler:download',
+      text: 'Book Now!',
+      href: '#',
+      icon: 'uil:calender',
     }}
   >
     <Fragment slot="title">
-      Astro + <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+      Tuckers Tours <br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Belfast</span>
     </Fragment>
 
     <Fragment slot="subtitle">
-      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
+      You've come this far down the page. <br class="hidden md:inline" />Don't
       waste more time! :P
     </Fragment>
   </CallToAction>
