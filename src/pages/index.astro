@@ -16,32 +16,29 @@ const meta = {
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
-
-const a = "Belfast Peace Walls Tours";
 ---
 
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Book Now', href: '#'}}
+    callToAction={{ text: 'Book Now', href: '#' }}
     callToAction2={{ text: 'About Me', href: '#features' }}
     image={{ src: import('~/assets/images/LoveIreland2.jpg'), alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Take A Trip With <span class="hidden lg:inline">Irelands Favourite Tours. <br class="2xl:hidden"/></span>
+      Take A Trip With <span class="hidden lg:inline">Irelands Favourite Tours. <br class="2xl:hidden" /></span>
       <span class="text-accent dark:text-white highlight"> Tuckers Tours Belfast!</span>
     </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">
-          Tuckers Tours Belfast
-        </span> 
-        Discover the beauty of Belfast with our expert-led tours. Experience the city's rich history and culture like never before.
+        <span class="font-semibold"> Tuckers Tours Belfast</span>
+        Discover the beauty of Belfast with our expert-led tours. Experience the city's rich history and culture like never
+        before.
       </span>
 
-      <span class="block mb-1 sm:hidden font-bold text-blue-600">Tuckers Tours Belfast</span> 
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">Tuckers Tours Belfast</span>
       Suitable for Families, Friends, Individuals and More!
     </Fragment>
   </Hero>
@@ -106,13 +103,11 @@ const a = "Belfast Peace Walls Tours";
     items={[
       {
         title: 'Explore Westeros in Real Life',
-        description:
-          "Visit iconic filming locations and discover the magic behind the scenes of the hit TV series",
+        description: 'Visit iconic filming locations and discover the magic behind the scenes of the hit TV series',
       },
       {
-        title: "Learn From a Thrones Expert",
-        description:
-          "Enjoy a tour led by a knowledgeable guide who is passionate about all things Game of Thrones",
+        title: 'Learn From a Thrones Expert',
+        description: 'Enjoy a tour led by a knowledgeable guide who is passionate about all things Game of Thrones',
       },
       {
         title: 'A Tour for Fans of All Ages',
@@ -127,7 +122,8 @@ const a = "Belfast Peace Walls Tours";
   >
     <Fragment slot="content">
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Game of Thrones</h3>
-      Join us on an unforgettable journey through the stunning landscapes of Northern Ireland, where you'll get to visit the iconic filming locations of the hit TV series 'Game of Thrones' and experience the magic of Westeros for yourself.
+      Join us on an unforgettable journey through the stunning landscapes of Northern Ireland, where you'll get to visit
+      the iconic filming locations of the hit TV series 'Game of Thrones' and experience the magic of Westeros for yourself.
     </Fragment>
   </Content>
 
@@ -140,18 +136,18 @@ const a = "Belfast Peace Walls Tours";
       {
         title: 'Understanding the Conflict',
         description:
-          "Gain insight into the complex history and events that led to the creation of the peace walls in Belfast",
+          'Gain insight into the complex history and events that led to the creation of the peace walls in Belfast',
       },
       {
         title: 'Walking in Their Shoes',
         description:
-          "Walk the same streets and visit the same neighborhoods as those affected by the conflict, and understand the impact of the walls on daily life",
+          'Walk the same streets and visit the same neighborhoods as those affected by the conflict, and understand the impact of the walls on daily life',
       },
       {
         title: 'Leaving with a New Perspective',
         description:
-          "Take away a deeper understanding of the conflict in Belfast and the importance of working towards a more united and peaceful future",
-      }
+          'Take away a deeper understanding of the conflict in Belfast and the importance of working towards a more united and peaceful future',
+      },
     ]}
     image={{
       src: import('~/assets/images/PeaceWalls.jpg'),
@@ -178,13 +174,13 @@ const a = "Belfast Peace Walls Tours";
       {
         title: 'Step 2: <span class="font-medium">Book Your Experience</em>',
         description:
-          "Book your tour with ease and take the first step towards discovering the beauty of Northern Ireland",
+          'Book your tour with ease and take the first step towards discovering the beauty of Northern Ireland',
         icon: 'tabler:letter-case',
       },
       {
         title: 'Step 3: <span class="font-medium">Create Memories to Last a Lifetime</span>',
         description:
-          "Make memories that will last a lifetime as you immerse yourself in the breathtaking scenery and rich cultural heritage of Northern Ireland",
+          'Make memories that will last a lifetime as you immerse yourself in the breathtaking scenery and rich cultural heritage of Northern Ireland',
         icon: 'tabler:paint',
       },
       {
@@ -199,8 +195,6 @@ const a = "Belfast Peace Walls Tours";
   />
 
   <!-- Features2 Widget ************** -->
-
- 
 
   <!-- HighlightedPosts Widget ******* -->
 
@@ -287,8 +281,7 @@ const a = "Belfast Peace Walls Tours";
     </Fragment>
 
     <Fragment slot="subtitle">
-      You've come this far down the page. <br class="hidden md:inline" />Don't
-      waste more time! :P
+      You've come this far down the page. <br class="hidden md:inline" />Don't waste more time! :P
     </Fragment>
   </CallToAction>
 </Layout>
