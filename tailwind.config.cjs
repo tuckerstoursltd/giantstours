@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       colors: {
         primary: 'var(--aw-color-primary)',
+        accessible: '#7e8084',
         secondary: 'var(--aw-color-secondary)',
         accent: 'var(--aw-color-accent)',
       },
