@@ -19,5 +19,5 @@ Throughout your tour, you can sit back, relax, and enjoy complimentary Wi-Fi on 
 
 To book, feel free to call or email at:
 
-Email: Tuckerstoursbelfast@gmail.com <br/>
+Email: tuckerstoursbelfastltd@gmail.com <br/>
 Mobile: +44 (0) 7704 436767
