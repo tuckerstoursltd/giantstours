@@ -3,32 +3,15 @@ import { getPermalink} from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Pages',
-      links: [
-        {
-          text: 'Pricing',
-          href: '#',
-        },
-        {
-          text: 'About us',
-          href: '#',
-        },
-        {
-          text: 'Contact',
-          href: '#',
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
-      ],
+      text: 'About Me',
+      href: 'about-me',
     },
     {
       text: 'Gallery',
       href: '#',
     },
   ],
-  actions: [{ type: 'button', text: 'Book Now', href: '#' }],
+  actions: [{ type: 'button', text: 'Book Now', href: 'https://calendly.com/niall-mahon1999/tour' }],
 };
 
 export const footerData = {
