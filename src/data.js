@@ -1,4 +1,4 @@
-import { getPermalink} from './utils/permalinks';
+import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
@@ -11,7 +11,7 @@ export const headerData = {
       href: '#',
     },
   ],
-  actions: [{ type: 'button', text: 'Book Now', href: 'https://calendly.com/niall-mahon1999/tour' }],
+  actions: [{ type: 'button', text: 'Book Now', href: 'https://calendly.com/tuckerstoursbelfastltd/tours' }],
 };
 
 export const footerData = {
@@ -28,22 +28,20 @@ export const footerData = {
       title: 'Support',
       links: [
         { text: 'Community Forum', href: '#' },
-        { text: 'Complaints', href: '#' }
+        { text: 'Complaints', href: '#' },
       ],
     },
     {
       title: 'Company',
       links: [
         { text: 'About', href: '#' },
-        { text: 'Careers', href: '#' }
+        { text: 'Careers', href: '#' },
       ],
     },
     {
       title: 'Creator',
-      links: [
-        { text: 'Niall Mahon', href: '#' }
-      ],
-    }
+      links: [{ text: 'Niall Mahon', href: '#' }],
+    },
   ],
   secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
