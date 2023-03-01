@@ -1,6 +1,6 @@
 ---
 publishDate: 2023-02-07T00:00:00Z
-title: About Us
+title: About Me
 image: ~/assets/images/PeaceWalls.jpg
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
@@ -16,6 +16,8 @@ For an unforgettable adventure, why not book a private tour along the scenic Cau
 Fans of Game of Thrones will love my ultimate Game of Thrones tour, where we will visit the famous filming locations from the blockbuster series. And for the ultimate adrenaline rush, I highly recommend a trip to Carrick-a-Rede rope bridge, followed by a visit to the iconic Dark Hedges.
 
 Throughout your tour, you can sit back, relax, and enjoy complimentary Wi-Fi on board as we drive you back to your drop-off point in Belfast. With me as your guide, you are guaranteed an awesome tour!
+
+#### CONTACT ME
 
 To book, feel free to call or email at:
 

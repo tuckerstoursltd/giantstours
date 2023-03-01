@@ -18,35 +18,22 @@ export const footerData = {
   links: [
     {
       title: 'Product',
-      links: [
-        { text: 'Team', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-      ],
+      links: [{ text: 'Pricing', href: '#' }],
     },
     {
       title: 'Support',
-      links: [
-        { text: 'Community Forum', href: '#' },
-        { text: 'Complaints', href: '#' },
-      ],
+      links: [{ text: 'Complaints', href: '/about-me#contact-me' }],
     },
     {
       title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Careers', href: '#' },
-      ],
+      links: [{ text: 'About', href: '/about-me' }],
     },
     {
       title: 'Creator',
       links: [{ text: 'Niall Mahon', href: '#' }],
     },
   ],
-  secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  secondaryLinks: [{ text: 'Privacy Policy', href: getPermalink('/privacy') }],
   socialLinks: [
     { ariaLabel: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
