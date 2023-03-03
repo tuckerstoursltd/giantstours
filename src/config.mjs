@@ -1,5 +1,4 @@
 import defaultImage from './assets/images/BookNow.jpg';
-import NetlifyCMS from 'astro-netlify-cms';
 
 const CONFIG = {
   name: 'Tuckers Tours Belfast Ltd',
@@ -24,23 +23,6 @@ const CONFIG = {
     day: 'numeric',
     timeZone: 'UTC',
   }),
-
-  googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-  googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
-
-  integrations: [
-    NetlifyCMS({
-      config: {
-        backend: {
-          name: 'git-gateway',
-          branch: 'main',
-        },
-        collections: [
-          // Content collections
-        ],
-      },
-    }),
-  ],
 
   blog: {
     disabled: false,
