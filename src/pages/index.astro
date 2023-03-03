@@ -16,8 +16,11 @@ const meta = {
   description: SITE.description,
   dontUseTitleTemplate: true,
 };
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
+<link rel="canonical" href={canonicalURL} />
 <Layout {meta}>
   <!-- Hero Widget ******************* -->
 
