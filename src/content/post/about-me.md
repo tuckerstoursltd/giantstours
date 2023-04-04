@@ -1,7 +1,7 @@
 ---
 publishDate: 2023-02-07T00:00:00Z
 title: About Me
-image: ~/assets/images/PeaceWalls.jpg
+image: ~/assets/images/about-me.jpg
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
 
