@@ -4,11 +4,11 @@ export const headerData = {
   links: [
     {
       text: 'About Me',
-      href: 'about-me',
+      href: '/about-me',
     },
     {
       text: 'Gallery',
-      href: 'gallery',
+      href: '/gallery',
     },
   ],
   actions: [{ type: 'button', text: 'Book Now', href: 'https://calendly.com/tuckerstoursbelfastltd/tours' }],
