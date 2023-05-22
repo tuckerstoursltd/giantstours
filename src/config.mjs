@@ -3,7 +3,7 @@ import defaultImage from './assets/images/BookNow.jpg';
 const CONFIG = {
   name: 'Tuckers Tours Belfast Ltd',
 
-  origin: 'https://www.tuckerstoursbelfast.com',
+  origin: 'https://tinatest.netlify.app',
   basePathname: '/',
   trailingSlash: false,
 
