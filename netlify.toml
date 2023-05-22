@@ -1,6 +1,6 @@
 [build]
   publish = "dist"
-  command = "npm run tinacms build && astro build"
+  command = "npm run build"
 [[headers]]
   for = "/assets/*"
   [headers.values]
