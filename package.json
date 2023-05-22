@@ -14,7 +14,7 @@
     "subfont": "subfont -ir --no-fallbacks --silent --root dist"
   },
   "devDependencies": {
-    "@astrojs/image": "0.13.0",
+    "@astrojs/image": "^0.13.0",
     "@astrojs/mdx": "^0.15.0",
     "@astrojs/partytown": "^1.0.3",
     "@astrojs/rss": "^2.1.0",
@@ -26,7 +26,7 @@
     "@tailwindcss/typography": "^0.5.9",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
     "@typescript-eslint/parser": "^5.50.0",
-    "astro": "2.0.2",
+    "astro": "^2.5.2",
     "astro-compress": "1.1.28",
     "astro-icon": "^0.8.0",
     "eslint": "^8.33.0",
