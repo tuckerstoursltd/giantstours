@@ -1,5 +1,6 @@
 ---
-import { glob } from 'glob';
+import pkg from 'glob';
+const { glob } = pkg;
 const imagePaths: string[] = glob.sync('public/gallery/*.jpg').map((image) => image.replace(/public\//g, ''));
 ---
 
