@@ -1,0 +1,14 @@
+---
+import glob from 'glob';
+const images: string[] = glob.sync('public/gallery/*.jpg').map(image => image.replace('public', ''));
+---
+
+<div class="grid gap-1.5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    {
+        images.map(
+            (image) => (
+                <img src={image} class="object-cover w-full h-full grayscale hover:grayscale-0">
+            )
+        )
+    }
+</div>
