@@ -1,7 +1,5 @@
 ---
-import pkg from 'glob';
-const { glob } = pkg;
-const imagePaths: string[] = glob.sync('public/gallery/*.jpg').map((image) => image.replace(/public\//g, ''));
+const imagePaths = await Astro.glob('/public/gallery/*.jpg');
 ---
 
 <div class="flex justify-center m-5">
@@ -11,7 +9,7 @@ const imagePaths: string[] = glob.sync('public/gallery/*.jpg').map((image) => im
   {
     imagePaths.map((imagePath, index) => (
       <img
-        src={imagePath}
+        src={imagePath.default.src}
         alt={`Picture ${index + 1}`}
         class="object-cover w-full h-full md:grayscale md:hover:scale-95 md:hover:grayscale-0 transition-all duration-700 ease-in-out"
       />
