@@ -8,7 +8,7 @@ export const headerData = {
     },
     {
       text: 'Gallery',
-      href: '#',
+      href: 'gallery',
     },
   ],
   actions: [{ type: 'button', text: 'Book Now', href: 'https://calendly.com/tuckerstoursbelfastltd/tours' }],
