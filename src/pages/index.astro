@@ -25,7 +25,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <!-- Hero Widget ******************* -->
 
   <Hero
-    callToAction={{ text: 'Book Now', href: 'https://calendly.com/tuckerstoursbelfastltd/tours', icon: 'uil:calender' }}
+    callToAction={{ text: 'Book Now', href: '/book-now', icon: 'uil:calender' }}
     callToAction2={{ text: 'About Me', href: 'about-me' }}
     image={{ src: import('~/assets/images/LoveIreland2.jpg'), alt: 'AstroWind Hero Image' }}
   >
@@ -258,7 +258,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <CallToAction
     callToAction={{
       text: 'Book Now!',
-      href: 'https://calendly.com/tuckerstoursbelfastltd/tours',
+      href: '/book-now',
       icon: 'uil:calender',
     }}
   >

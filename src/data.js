@@ -11,7 +11,7 @@ export const headerData = {
       href: '/gallery',
     },
   ],
-  actions: [{ type: 'button', text: 'Book Now', href: 'https://calendly.com/tuckerstoursbelfastltd/tours' }],
+  actions: [{ type: 'button', text: 'Book Now', href: '/book-now' }],
 };
 
 export const footerData = {
