@@ -1,34 +1,61 @@
-
 ---
-import Layout from '~/layouts/PageLayout.astro'
+import Layout from '~/layouts/PageLayout.astro';
 ---
 
 <Layout>
-<div class="sm:h-screen w-screen flex flex-col items-center justify-center md:flex-row gap-y-5 px-3">
-  <div class="h-fit bg-slate-900 dark:bg-white max-w-sm rounded overflow-hidden shadow-lg mt-16 sm:mt-0">
-    <img src="/gallery/IMG-2305.jpg" class="object-cover" alt="">
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2 text-white dark:text-slate-900">The Giants Causeway</div>
-      <p class="text-gray-300 text-base dark:text-gray-700">
-        Be part of ancient Ireland and discover the mesmorising landscapes and natural beauty of the Giants Causeway
-      </p>
+  <div class="sm:h-screen w-screen flex flex-col items-center justify-center md:flex-row gap-y-5 px-3">
+    <!-- Giants Causeway Tour Card -->
+    <div class="h-fit bg-slate-900 dark:bg-white max-w-sm rounded overflow-hidden shadow-lg mt-16 sm:mt-0">
+      <img src="/gallery/IMG-2305.jpg" class="object-cover" alt="" />
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2 text-white dark:text-slate-900">Dunluce Castle Tour</div>
+        <p class="text-gray-300 text-base dark:text-gray-700">
+          Immerse yourself in ancient Ireland and explore the mesmerizing landscapes and natural beauty of the Dunluce
+          Castle Tour.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <a href="https://cal.com/giants-tours/dunluce-castle-tour"
+          ><span
+            class="transition-all dark:hover:bg-slate-900 dark:hover:text-white hover:bg-gray-50 inline-block bg-blue-200 rounded-full px-4 py-4 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Book Now</span
+          ></a
+        >
+        <a href="/dunluce-castle-tour"
+          ><span
+            class="transition-all dark:hover:bg-slate-900 dark:hover:text-white hover:bg-gray-50 inline-block bg-blue-200 rounded-full px-4 py-4 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Details</span
+          ></a
+        >
+      </div>
     </div>
-    <div class="px-6 pt-4 pb-2">
-      <a href="https://cal.com/tuckerstoursbelfast/giants-causeway-tour"><span class="transition-all dark:hover:bg-slate-900 dark:hover:text-white hover:bg-gray-50 inline-block bg-blue-200 rounded-full px-4 py-4 text-sm font-semibold text-gray-700 mr-2 mb-2">Book Now</span></a>
+
+    <!-- Separator Line -->
+    <span class="hidden md:inline-block border-l-2 border-solid border-black dark:border-white h-4/5 ml-4 mr-4"></span>
+
+    <!-- Belfast City Tour Card -->
+    <div class="h-fit bg-slate-900 dark:bg-white max-w-sm rounded overflow-hidden shadow-lg mb-16 sm:mb-0">
+      <img src="/gallery/IMG-2278.jpg" class="object-cover" alt="" />
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2 text-white dark:text-slate-900">Belfast City Tour</div>
+        <p class="text-gray-300 text-base dark:text-gray-700">
+          Book your two-hour trip around the heart of Belfast city and discover what life is like for the locals.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <a href="https://cal.com/giants-tours/belfast-city-tour"
+          ><span
+            class="transition-all dark:hover:bg-slate-900 dark:hover:text-white hover:bg-gray-50 inline-block bg-blue-200 rounded-full px-4 py-4 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Book Now</span
+          ></a
+        >
+        <a href="/belfast-city-tour"
+          ><span
+            class="transition-all dark:hover:bg-slate-900 dark:hover:text-white hover:bg-gray-50 inline-block bg-blue-200 rounded-full px-4 py-4 text-sm font-semibold text-gray-700 mr-2 mb-2"
+            >Details</span
+          ></a
+        >
+      </div>
     </div>
   </div>
-  <span class="hidden md:inline-block border-l-2 border-solid border-black dark:border-white h-4/5 ml-4 mr-4"></span>
-  <div class="h-fit bg-slate-900 dark:bg-white max-w-sm rounded overflow-hidden shadow-lg mb-16 sm:mb-0">
-    <img src="/gallery/IMG-2278.jpg" class="object-cover" alt="">
-    <div class="px-6 py-4">
-      <div class="font-bold text-xl mb-2 text-white dark:text-slate-900">Belfast City Tour</div>
-      <p class="text-gray-300 text-base dark:text-gray-700">
-        Book your two hour trip around the heart of belfast city and discover what life is like for the locals.
-      </p>
-    </div>
-    <div class="px-6 pt-4 pb-2">
-      <a href="https://cal.com/tuckerstoursbelfast/belfast-city-tour"><span class="transition-all dark:hover:bg-slate-900 dark:hover:text-white hover:bg-gray-50 inline-block bg-blue-200 rounded-full px-4 py-4 text-sm font-semibold text-gray-700 mr-2 mb-2">Book Now</span></a>
-    </div>
-  </div>
-</div>
 </Layout>
