@@ -3,13 +3,26 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
+      text: 'Tours',
+      links: [
+        {
+          text: 'Castle Tour',
+          href: 'dunluce-castle-tour',
+        },
+        {
+          text: 'Belfast City Tour',
+          href: 'belfast-city-tour',
+        }
+      ]
+    },
+    {
       text: 'About Me',
       href: 'about-me',
     },
     {
       text: 'Gallery',
       href: '/gallery',
-    }
+    },
   ],
   actions: [{ text: 'Book Now', href: '/book-now', target: '_blank' }],
 };
@@ -40,3 +53,4 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   ],
 };
+
