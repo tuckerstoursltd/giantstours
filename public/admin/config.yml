@@ -2,15 +2,20 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: 'src/assets/gallery'
-public_folder: '/_astro'
+media_folder: src/assets/gallery
+public_folder: /_astro
+search: false
 
 collections:
-  - name: "posts"
-    label: "Post"
-    folder: "_posts"
-    filter:
-      field: language
-      value: en
+  - name: gallery
+    label: gallery
+    description: 'Place your pictures here that you want for your gallery page'
+    folder: src/content/gallery
+    create: false
+    extension: json
     fields:
-      - {label: "Language", name: "language"}
+      - label: 'Image Link'
+        name: src
+        widget: file
+      - {label: Description, name: alt, widget: string, default: 'Picture of tour'}
+
