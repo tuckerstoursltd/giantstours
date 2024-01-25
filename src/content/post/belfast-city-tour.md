@@ -4,8 +4,6 @@ title: Belfast City Tour
 image: ''
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
-# BELFAST CITY TOUR
-
 Belfast is a city for everyone, with around 80,000 students residing in the city center. We extend a warm welcome to visitors from around the world to explore this unique and multicultural city.
 
 Join us as we embark on a journey starting at Belfast City Hall BT1. Our itinerary is crafted to showcase the vibrant essence of Belfast.
