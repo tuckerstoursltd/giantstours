@@ -53,17 +53,7 @@ export default defineConfig({
                 required: true,
               },
               {
-                label: "Photographer",
-                name: "photographer",
-                type: "string",
-              },
-              {
-                label: "Description",
-                name: "description",
-                type: "string",
-              },
-              {
-                label: "Accessibility Description",
+                label: "Short Description",
                 name: "alt",
                 type: "string",
                 required: true,

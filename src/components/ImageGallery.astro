@@ -1,7 +1,9 @@
 ---
 import { Image } from 'astro:assets';
-const imagePaths = Object.keys(import.meta.glob('src/assets/gallery/*.jpg'));
-console.log(imagePaths);
+import { getCollection } from 'astro:content';
+
+// Fetch gallery items from the collection
+const imagePaths = await getCollection('gallery');
 ---
 
 <div class="flex justify-center m-5">
@@ -9,12 +11,12 @@ console.log(imagePaths);
 </div>
 <div class="grid gap-1.5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
   {
-    imagePaths.map((imagePath, index) => (
+    imagePaths[0].data.photoentry.map((photo) => (
       <Image
-        src={imagePath}
+        src={photo.photo}
         width="800"
         height="800"
-        alt={`Picture Number ${index}`}
+        alt={photo.alt}
         class="object-cover lg:grayscale lg:hover:scale-95 lg:hover:grayscale-0 transition-all duration-700 ease-in-out"
       />
     ))
