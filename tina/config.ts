@@ -25,29 +25,59 @@ export default defineConfig({
       publicFolder: "public",
     },
   },
+
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "gallery",
+        label: "Gallery",
+        path: "src/content/gallery",
+        format: "json",
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
         fields: [
           {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
+            label: "Photo Entry",
+            name: "photoentry",
+            type: "object",
+            fields: [
+              {
+                label: "Photo",
+                name: "photo",
+                type: "image",
+                required: true,
+              },
+              {
+                label: "Photographer",
+                name: "photographer",
+                type: "string",
+              },
+              {
+                label: "Description",
+                name: "description",
+                type: "string",
+              },
+              {
+                label: "Accessibility Description",
+                name: "alt",
+                type: "string",
+                required: true,
+              },
+            ],
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: item?.alt };
+              },
+            },
           },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
+        ]
+      }
     ],
   },
 });
