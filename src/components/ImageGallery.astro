@@ -1,5 +1,5 @@
 ---
-import { Image } from 'astro:assets';
+import { Picture } from 'astro:assets';
 import { getCollection } from 'astro:content';
 
 // Fetch gallery items from the collection
@@ -12,7 +12,7 @@ const imagePaths = await getCollection('gallery');
 <div class="grid gap-1.5 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
   {
     imagePaths[0].data.photoentry.map((photo) => (
-      <Image
+      <Picture
         src={photo.photo}
         width="800"
         height="800"
