@@ -1,11 +1,11 @@
 ---
 publishDate: 2024-01-22T00:00:00Z
-title: Dunluce Castle tour
+title: Giants Causeway & G.O.T Film Location Tour
 image: ''
 canonical: https://astrowind.vercel.app/astrowind-template-in-depth
 ---
 
-# DUNLUCE CASTLE TOUR
+# GIANTS CAUSEWAY & G.O.T FILM LOCATION TOUR
 
 Come along and explore the enchanting coastal beauty, starting with the historic Dunluce Castle ruins (16th century). Once inhabited by both the McQuillan and Mac Donnell Clans, the castle is also renowned as the filming location for the "Game of Thrones" House of GreyJoy, Pyke Castle.
 
@@ -50,9 +50,6 @@ Travel in comfort in my Luxury 8 Seater Mercedes Vito with air-conditioning, lea
 - Guiding Services
 - Private Transportation
 
-## ESTIMATED LOCAL CASH NEEDED
-
-- 50 GBP - For lunch and souvenirs
 
 ## WHAT’S EXTRA
 

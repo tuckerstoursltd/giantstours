@@ -42,9 +42,6 @@ Luxury Mercedes Benz Vito, 8-seater.
 - Private Transportation
 - Other: Free Water on Board, Phone Chargers, Free WiFi on Board
 
-## ESTIMATED LOCAL CASH NEEDED
-
-- 50 GBP - For Food, Drinks, and Souvenirs
 
 ## WHAT’S EXTRA
 

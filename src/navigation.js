@@ -6,12 +6,12 @@ export const headerData = {
       text: 'Tours',
       links: [
         {
-          text: 'Castle Tour',
-          href: 'dunluce-castle-tour',
+          text: 'Giants Causeway & G.O.T Tour',
+          href: '/giants-causeway-got-tour',
         },
         {
           text: 'Belfast City Tour',
-          href: 'belfast-city-tour',
+          href: '/belfast-city-tour',
         }
       ]
     },
