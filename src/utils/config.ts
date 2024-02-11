@@ -103,7 +103,7 @@ const getMetadata = () => {
     },
     description: '',
     robots: {
-      index: true,
+      noindex: false,
       follow: false,
     },
     openGraph: {
