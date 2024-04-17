@@ -1,16 +1,13 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
-
+import LogoBanner from '~/components/LogoBanner.astro'
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+
 
 const metadata = {
   title: 'Giants Tours - Irelands Best Tour Service.',
@@ -48,9 +45,7 @@ const metadata = {
     </Fragment>
   </Hero>
 
-  <!-- Note Widget ******************* -->
-
-  <!-- Features Widget *************** -->
+  <LogoBanner/>
 
   <Features
     id="Highlights"
@@ -85,16 +80,13 @@ const metadata = {
       },
       {
         title: 'Luxury Transportation',
-        description:
-          'Join me on a private tour in my luxury 8 seater Mercedes Vito With leather interior WiFi',
-        icon: 'tabler:car'
+        description: 'Join me on a private tour in my luxury 8 seater Mercedes Vito With leather interior WiFi',
+        icon: 'tabler:car',
       },
     ]}
   />
 
   <!-- Content Widget **************** -->
-
-  <!-- Giants Causeway Tour Widget **************** -->
 
   <Content
     tagline="Our Tours"
@@ -202,10 +194,6 @@ const metadata = {
       alt: 'Steps image',
     }}
   />
-
-  <!-- Features2 Widget ************** -->
-
-  <!-- HighlightedPosts Widget ******* -->
 
   <!-- FAQs Widget ******************* -->
 

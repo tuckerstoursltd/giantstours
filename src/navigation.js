@@ -12,8 +12,8 @@ export const headerData = {
         {
           text: 'Belfast City Tour',
           href: '/belfast-city-tour',
-        }
-      ]
+        },
+      ],
     },
     {
       text: 'About Me',
@@ -22,6 +22,10 @@ export const headerData = {
     {
       text: 'Gallery',
       href: '/gallery',
+    },
+    {
+      text: 'Pricing',
+      href: '/pricing',
     },
   ],
   actions: [{ text: 'Book Now', href: '/book-now', target: '_blank' }],
@@ -53,4 +57,3 @@ export const footerData = {
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   ],
 };
-
