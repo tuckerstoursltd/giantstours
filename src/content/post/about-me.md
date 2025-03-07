@@ -22,5 +22,5 @@ Throughout your tour, you can sit back, relax, and enjoy complimentary Wi-Fi on 
 
 To book, feel free to call or email at:
 
-Email: tours@giantstours.com <br/>
+Email: tours@tuckerstours.com <br/>
 Mobile: +44 (0) 7737 631364

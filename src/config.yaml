@@ -1,6 +1,6 @@
 site:
-  name: 'Giants Tours Ltd'
-  site: 'https://www.giantstours.com/'
+  name: 'Tuckers Tours Ltd'
+  site: 'https://www.tuckerstours.com/'
   base: '/'
   trailingSlash: false
 
@@ -9,16 +9,16 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: 'Giants Tours Ltd'
-    template: 'Giants Tours Ltd'
-  description: "Giants Tours Ltd: Discover the beauty of Belfast with our expert-led tours. Experience the city's rich history and culture like never before."
+    default: 'Tuckers Tours Ltd'
+    template: 'Tuckers Tours Ltd'
+  description: "Tuckers Tours Ltd: Discover the beauty of Belfast with our expert-led tours. Experience the city's rich history and culture like never before."
 
 
   # robots:
   #   index: true
   #   follow: true
   # openGraph:
-  #   site_name: Giants Tours
+  #   site_name: Tuckers Tours
   #   images:
   #     - url: '~/assets/images/default.png'
   #       width: 1200
